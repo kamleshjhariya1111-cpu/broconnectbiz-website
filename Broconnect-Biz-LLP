@@ -1,0 +1,1367 @@
+/* style.css - Shared CSS for Broconnect Biz LLP website */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+nav a:hover, nav a.cta:hover {
+  color: #007bff;
+}
+nav a.cta {
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+}
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+section h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+footer {
+  background: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  margin: 5px 0;
+}
+ul, ol {
+  margin-left: 20px;
+}
+.cta-buttons a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.cta-buttons a:hover {
+  background: #0056b3;
+}
+.form-field {
+  margin-bottom: 10px;
+}
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-field input, .form-field textarea, .form-field select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.project, .service-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.project h3, .service-card h3 {
+  margin-top: 0;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .cta-buttons a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="hero">
+  <h1>Building Brands. Connecting Businesses. Creating Growth.</h1>
+  <p>We help businesses build a stronger digital presence and generate meaningful opportunities through strategy, creativity, technology, and performance-driven digital marketing.</p>
+  <div class="cta-buttons">
+    <a href="contact.html">Start Your Project</a>
+    <a href="services.html">Explore Our Services</a>
+  </div>
+</section>
+
+<section id="value-proposition">
+  <h2>Your Business Deserves More Than Just an Online Presence</h2>
+  <p>In today's digital-first marketplace, having a website or social media account is not enough. Businesses need a <strong>clear brand identity, professional online presence, consistent communication, targeted marketing, and a strategy focused on measurable growth.</strong></p>
+  <p>That's where <strong>Broconnect Biz LLP</strong> comes in. We work with businesses to understand their goals, identify opportunities, build the right digital strategy, and execute campaigns designed around their specific requirements. Whether you are launching a new business, rebuilding your brand, or looking to increase your online reach, we provide practical digital solutions under one roof.</p>
+</section>
+
+<section id="our-services">
+  <h2>What We Do</h2>
+  <div class="service-card">
+    <h3>Brand & Digital Identity</h3>
+    <p>Build a professional and consistent identity that represents your business. <em>Build a brand people can recognize and trust.</em></p>
+  </div>
+  <div class="service-card">
+    <h3>Website Design & Development</h3>
+    <p>Create a professional website that clearly communicates your business. <em>Your website should not only look professional—it should help your business grow.</em></p>
+  </div>
+  <div class="service-card">
+    <h3>Social Media Marketing</h3>
+    <p>Build an active presence on social platforms. <em>Stay visible. Stay relevant. Stay connected with your audience.</em></p>
+  </div>
+  <div class="service-card">
+    <h3>Performance Marketing</h3>
+    <p>Reach the right audience through targeted advertising campaigns. <em>Turn digital advertising into measurable business opportunities.</em></p>
+  </div>
+  <div class="service-card">
+    <h3>Search Engine Optimization (SEO)</h3>
+    <p>Improve your online visibility on search engines. <em>Be easier to find when your customers are searching for your services.</em></p>
+  </div>
+  <div class="service-card">
+    <h3>Content & Creative Solutions</h3>
+    <p>Create professional content that communicates your value and strengthens your brand. <em>Good content attracts attention. Strategic content creates action.</em></p>
+  </div>
+</section>
+
+<section id="process-steps">
+  <h2>From Idea to Digital Growth</h2>
+  <ol>
+    <li><strong>Understand:</strong> We learn about your business, target audience, competitors, current digital presence, and objectives.</li>
+    <li><strong>Strategize:</strong> We develop a practical digital strategy based on your business goals and market opportunity.</li>
+    <li><strong>Build:</strong> We create or improve the essential digital assets required to establish a strong online presence.</li>
+    <li><strong>Promote:</strong> We use relevant digital marketing channels to reach your target audience and generate awareness and enquiries.</li>
+    <li><strong>Optimize:</strong> We continuously evaluate performance and identify opportunities to improve results.</li>
+    <li><strong>Grow:</strong> Our objective is to create a sustainable digital foundation that supports your long-term business growth.</li>
+  </ol>
+</section>
+
+<section id="why-us">
+  <h2>A Practical Partner for Your Digital Growth</h2>
+  <p><strong>Business-Focused Approach:</strong> We focus on your business objectives — not just on individual marketing activities.</p>
+  <p><strong>Customized Strategies:</strong> Your business is unique. We create solutions based on your industry, audience, competition, and goals.</p>
+  <p><strong>Professional Execution:</strong> From design and content to marketing campaigns, we maintain a consistent and professional brand presence.</p>
+  <p><strong>Transparent Communication:</strong> We believe clients should understand what is being done, why it is being done, and what the intended outcome is.</p>
+  <p><strong>Growth-Oriented Thinking:</strong> We aim to help businesses build stronger brands, reach the right audiences, generate opportunities, and grow.</p>
+</section>
+
+<section id="cta-final">
+  <h2>Ready to Build Your Digital Growth Story?</h2>
+  <p>Whether you're starting a new business, launching a new brand, redesigning your website, or looking for better digital marketing results, <strong>Broconnect Biz LLP</strong> is ready to help. Tell us about your business and we'll identify the right opportunities and create a strategy designed around your goals.</p>
+  <div class="cta-buttons">
+    <a href="contact.html">Talk to Our Team</a>
+    <a href="contact.html">Start Your Project</a>
+  </div>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="intro">
+  <h1>About Broconnect Biz LLP</h1>
+  <h2>We Help Businesses Build, Connect, and Grow in the Digital World</h2>
+  <p><strong>Broconnect Biz LLP</strong> is a digital marketing agency focused on helping businesses establish a strong digital presence, connect with the right audience, and create sustainable opportunities for growth. We work with startups, small businesses, entrepreneurs, professionals, and growing organizations to strengthen their brand, improve online visibility, reach potential customers, and build a professional digital presence. Our approach brings together strategy, creativity, technology, and digital marketing to create practical solutions aligned with each client's business objectives.</p>
+  <p>We believe digital marketing should not simply be about being visible online. It should help a business communicate its value, build credibility, connect with customers, generate opportunities, and move toward measurable growth.</p>
+</section>
+
+<section id="who-we-are">
+  <h2>Who We Are</h2>
+  <p>The digital landscape is constantly changing. Customer expectations are evolving, competition is increasing, and businesses need to adapt quickly to remain relevant. At Broconnect Biz LLP, we help businesses navigate this environment with a structured and practical approach. We begin by understanding the business, its market, customers, competitors, and objectives. Based on that understanding, we develop digital solutions designed to create a stronger foundation for long-term growth.</p>
+  <p>Rather than treating every client the same, we believe in <strong>business-specific strategies and solutions.</strong> Our objective is to become more than a service provider. <strong>We aim to be a trusted digital growth partner.</strong></p>
+</section>
+
+<section id="mission">
+  <h2>Our Mission</h2>
+  <ul>
+    <li>Help businesses establish a credible digital identity</li>
+    <li>Create stronger connections between brands and their audiences</li>
+    <li>Develop practical digital strategies based on business objectives</li>
+    <li>Improve online visibility and customer engagement</li>
+    <li>Help businesses generate meaningful enquiries and opportunities</li>
+    <li>Combine creativity with technology and data-driven thinking</li>
+    <li>Build long-term digital foundations rather than short-term visibility</li>
+  </ul>
+  <p><strong>Our mission is simple:</strong> help businesses make better use of the digital world to achieve their goals.</p>
+</section>
+
+<section id="vision">
+  <h2>Our Vision</h2>
+  <p>Our vision is to build a digital marketing company recognized for professionalism, creativity, transparency, strategic thinking, and client-focused execution. We want to help businesses of different sizes and industries confidently navigate the digital landscape and compete in an increasingly connected marketplace. As we grow, our focus remains the same: <strong>Better strategies. Better digital experiences. Better business opportunities.</strong></p>
+</section>
+
+<section id="values">
+  <h2>What We Believe</h2>
+  <p>We believe successful digital marketing starts with understanding the business — not simply choosing a marketing channel. A beautiful website without a clear purpose may not generate results. A social media account without a strategy may not build meaningful engagement. Advertising without proper targeting may waste resources. That's why every digital activity we do has a clear purpose and connection to broader business objectives.</p>
+  <p><strong>Our philosophy is:</strong> Understand → Strategize → Create → Connect → Measure → Improve → Grow</p>
+</section>
+
+<section id="core-values">
+  <h2>Our Core Values</h2>
+  <ul>
+    <li><strong>Client First:</strong> We take time to understand our clients' businesses, challenges, and goals before recommending solutions.</li>
+    <li><strong>Transparency:</strong> Clear communication, realistic expectations, and transparent working relationships.</li>
+    <li><strong>Quality:</strong> Professional quality matters. We maintain high standards across strategy, design, content, and execution.</li>
+    <li><strong>Creativity:</strong> Digital audiences are constantly exposed to new information. We use creative thinking to help brands stand out and remain memorable.</li>
+    <li><strong>Innovation:</strong> We continuously explore new tools, platforms, and approaches that create better opportunities for our clients.</li>
+    <li><strong>Results-Oriented Thinking:</strong> We focus on how our work contributes to visibility, engagement, enquiries, and overall business growth.</li>
+    <li><strong>Long-Term Relationships:</strong> We value relationships beyond individual projects and aim to become a dependable partner as your business evolves.</li>
+  </ul>
+</section>
+
+<section id="approach">
+  <h2>Our Approach to Every Client</h2>
+  <p>Every business is different. Before creating a campaign, website, or marketing plan, we strive to understand:</p>
+  <ul>
+    <li>Where are you today? Where do you want to go?</li>
+    <li>Who are your customers? What challenges are you facing?</li>
+    <li>What makes your business different? Which digital opportunities can create the greatest impact?</li>
+  </ul>
+  <p>Once we understand these factors, we can build a more relevant strategy.</p>
+</section>
+
+<section id="strategy-execution">
+  <h2>From Strategy to Execution</h2>
+  <ol>
+    <li><strong>Discover:</strong> We understand your business, market, audience, competitors, and goals.</li>
+    <li><strong>Define:</strong> We identify priorities, opportunities, challenges, and the right direction.</li>
+    <li><strong>Strategize:</strong> We develop a practical digital strategy based on your requirements.</li>
+    <li><strong>Create:</strong> We develop the required digital assets, content, and campaigns.</li>
+    <li><strong>Launch:</strong> We implement and launch the selected digital initiatives.</li>
+    <li><strong>Measure:</strong> We monitor relevant performance indicators and gather insights.</li>
+    <li><strong>Optimize:</strong> We identify areas for improvement and refine the strategy.</li>
+    <li><strong>Grow:</strong> We continuously look for opportunities to strengthen your digital presence and support business growth.</li>
+  </ol>
+</section>
+
+<section id="differentiator">
+  <h2>What Makes Us Different?</h2>
+  <p>At Broconnect Biz LLP, we look at the bigger picture. Your <strong>Brand</strong> should connect with your <strong>Website</strong>, which should communicate with your <strong>Content</strong>, which should engage your <strong>Audience</strong>, which should ultimately support your <strong>Business Goals.</strong> This integrated approach creates a consistent digital experience rather than disconnected marketing activities.</p>
+</section>
+
+<section id="built-for-growth">
+  <h2>Built for Businesses That Want to Grow</h2>
+  <p>Whether you're launching your first business or expanding an established organization, your digital presence plays an important role in how customers discover, evaluate, and interact with your brand. We help businesses create the digital foundation required to compete in today's marketplace. From brand identity and websites to social media, content, SEO, advertising, and digital growth strategies, we bring together the capabilities you need to move forward with confidence.</p>
+</section>
+
+<section id="commitment">
+  <h2>Our Commitment</h2>
+  <p>When you work with Broconnect Biz LLP, our commitment is to understand your business and provide solutions relevant to your objectives. We maintain:</p>
+  <ul>
+    <li>Clear communication</li>
+    <li>Professional execution</li>
+    <li>Practical recommendations</li>
+    <li>Transparent working relationships</li>
+    <li>Consistent quality</li>
+    <li>Continuous improvement</li>
+    <li>Long-term partnership</li>
+  </ul>
+  <p>We know every business has different resources and priorities. That's why we focus on finding the right approach for your business, rather than simply recommending more services.</p>
+</section>
+
+<section id="future">
+  <h2>Looking Ahead</h2>
+  <p>The future of business is increasingly digital. AI, automation, data, social platforms, and digital customer experiences are changing how businesses reach customers. Broconnect Biz LLP aims to grow alongside these changes. We continuously improve our capabilities, adopt relevant technologies, develop new solutions, and help clients take advantage of emerging digital opportunities. Our long-term goal is to build a company where businesses can find the strategy, creativity, technology, and support they need to grow in the digital economy.</p>
+</section>
+
+<section id="build-together">
+  <h2>Let's Build Your Digital Future Together</h2>
+  <p>Your business has a story, a vision, and an opportunity. Our role is to help you communicate that story effectively, connect with the right people, and build a stronger digital foundation for the future.</p>
+  <div class="cta-buttons">
+    <a href="contact.html">Talk to Our Team</a>
+    <a href="contact.html">Start Your Project</a>
+  </div>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="intro">
+  <h1>About Broconnect Biz LLP</h1>
+  <h2>We Help Businesses Build, Connect, and Grow in the Digital World</h2>
+  <p><strong>Broconnect Biz LLP</strong> is a digital marketing agency focused on helping businesses establish a strong digital presence, connect with the right audience, and create sustainable opportunities for growth. We work with startups, small businesses, entrepreneurs, professionals, and growing organizations to strengthen their brand, improve online visibility, reach potential customers, and build a professional digital presence. Our approach brings together strategy, creativity, technology, and digital marketing to create practical solutions aligned with each client's business objectives.</p>
+  <p>We believe digital marketing should not simply be about being visible online. It should help a business communicate its value, build credibility, connect with customers, generate opportunities, and move toward measurable growth.</p>
+</section>
+
+<section id="who-we-are">
+  <h2>Who We Are</h2>
+  <p>The digital landscape is constantly changing. Customer expectations are evolving, competition is increasing, and businesses need to adapt quickly to remain relevant. At Broconnect Biz LLP, we help businesses navigate this environment with a structured and practical approach. We begin by understanding the business, its market, customers, competitors, and objectives. Based on that understanding, we develop digital solutions designed to create a stronger foundation for long-term growth.</p>
+  <p>Rather than treating every client the same, we believe in <strong>business-specific strategies and solutions.</strong> Our objective is to become more than a service provider. <strong>We aim to be a trusted digital growth partner.</strong></p>
+</section>
+
+<section id="mission">
+  <h2>Our Mission</h2>
+  <ul>
+    <li>Help businesses establish a credible digital identity</li>
+    <li>Create stronger connections between brands and their audiences</li>
+    <li>Develop practical digital strategies based on business objectives</li>
+    <li>Improve online visibility and customer engagement</li>
+    <li>Help businesses generate meaningful enquiries and opportunities</li>
+    <li>Combine creativity with technology and data-driven thinking</li>
+    <li>Build long-term digital foundations rather than short-term visibility</li>
+  </ul>
+  <p><strong>Our mission is simple:</strong> help businesses make better use of the digital world to achieve their goals.</p>
+</section>
+
+<section id="vision">
+  <h2>Our Vision</h2>
+  <p>Our vision is to build a digital marketing company recognized for professionalism, creativity, transparency, strategic thinking, and client-focused execution. We want to help businesses of different sizes and industries confidently navigate the digital landscape and compete in an increasingly connected marketplace. As we grow, our focus remains the same: <strong>Better strategies. Better digital experiences. Better business opportunities.</strong></p>
+</section>
+
+<section id="values">
+  <h2>What We Believe</h2>
+  <p>We believe successful digital marketing starts with understanding the business — not simply choosing a marketing channel. A beautiful website without a clear purpose may not generate results. A social media account without a strategy may not build meaningful engagement. Advertising without proper targeting may waste resources. That's why every digital activity we do has a clear purpose and connection to broader business objectives.</p>
+  <p><strong>Our philosophy is:</strong> Understand → Strategize → Create → Connect → Measure → Improve → Grow</p>
+</section>
+
+<section id="core-values">
+  <h2>Our Core Values</h2>
+  <ul>
+    <li><strong>Client First:</strong> We take time to understand our clients' businesses, challenges, and goals before recommending solutions.</li>
+    <li><strong>Transparency:</strong> Clear communication, realistic expectations, and transparent working relationships.</li>
+    <li><strong>Quality:</strong> Professional quality matters. We maintain high standards across strategy, design, content, and execution.</li>
+    <li><strong>Creativity:</strong> Digital audiences are constantly exposed to new information. We use creative thinking to help brands stand out and remain memorable.</li>
+    <li><strong>Innovation:</strong> We continuously explore new tools, platforms, and approaches that create better opportunities for our clients.</li>
+    <li><strong>Results-Oriented Thinking:</strong> We focus on how our work contributes to visibility, engagement, enquiries, and overall business growth.</li>
+    <li><strong>Long-Term Relationships:</strong> We value relationships beyond individual projects and aim to become a dependable partner as your business evolves.</li>
+  </ul>
+</section>
+
+<section id="approach">
+  <h2>Our Approach to Every Client</h2>
+  <p>Every business is different. Before creating a campaign, website, or marketing plan, we strive to understand:</p>
+  <ul>
+    <li>Where are you today? Where do you want to go?</li>
+    <li>Who are your customers? What challenges are you facing?</li>
+    <li>What makes your business different? Which digital opportunities can create the greatest impact?</li>
+  </ul>
+  <p>Once we understand these factors, we can build a more relevant strategy.</p>
+</section>
+
+<section id="strategy-execution">
+  <h2>From Strategy to Execution</h2>
+  <ol>
+    <li><strong>Discover:</strong> We understand your business, market, audience, competitors, and goals.</li>
+    <li><strong>Define:</strong> We identify priorities, opportunities, challenges, and the right direction.</li>
+    <li><strong>Strategize:</strong> We develop a practical digital strategy based on your requirements.</li>
+    <li><strong>Create:</strong> We develop the required digital assets, content, and campaigns.</li>
+    <li><strong>Launch:</strong> We implement and launch the selected digital initiatives.</li>
+    <li><strong>Measure:</strong> We monitor relevant performance indicators and gather insights.</li>
+    <li><strong>Optimize:</strong> We identify areas for improvement and refine the strategy.</li>
+    <li><strong>Grow:</strong> We continuously look for opportunities to strengthen your digital presence and support business growth.</li>
+  </ol>
+</section>
+
+<section id="differentiator">
+  <h2>What Makes Us Different?</h2>
+  <p>At Broconnect Biz LLP, we look at the bigger picture. Your <strong>Brand</strong> should connect with your <strong>Website</strong>, which should communicate with your <strong>Content</strong>, which should engage your <strong>Audience</strong>, which should ultimately support your <strong>Business Goals.</strong> This integrated approach creates a consistent digital experience rather than disconnected marketing activities.</p>
+</section>
+
+<section id="built-for-growth">
+  <h2>Built for Businesses That Want to Grow</h2>
+  <p>Whether you're launching your first business or expanding an established organization, your digital presence plays an important role in how customers discover, evaluate, and interact with your brand. We help businesses create the digital foundation required to compete in today's marketplace. From brand identity and websites to social media, content, SEO, advertising, and digital growth strategies, we bring together the capabilities you need to move forward with confidence.</p>
+</section>
+
+<section id="commitment">
+  <h2>Our Commitment</h2>
+  <p>When you work with Broconnect Biz LLP, our commitment is to understand your business and provide solutions relevant to your objectives. We maintain:</p>
+  <ul>
+    <li>Clear communication</li>
+    <li>Professional execution</li>
+    <li>Practical recommendations</li>
+    <li>Transparent working relationships</li>
+    <li>Consistent quality</li>
+    <li>Continuous improvement</li>
+    <li>Long-term partnership</li>
+  </ul>
+  <p>We know every business has different resources and priorities. That's why we focus on finding the right approach for your business, rather than simply recommending more services.</p>
+</section>
+
+<section id="future">
+  <h2>Looking Ahead</h2>
+  <p>The future of business is increasingly digital. AI, automation, data, social platforms, and digital customer experiences are changing how businesses reach customers. Broconnect Biz LLP aims to grow alongside these changes. We continuously improve our capabilities, adopt relevant technologies, develop new solutions, and help clients take advantage of emerging digital opportunities. Our long-term goal is to build a company where businesses can find the strategy, creativity, technology, and support they need to grow in the digital economy.</p>
+</section>
+
+<section id="build-together">
+  <h2>Let's Build Your Digital Future Together</h2>
+  <p>Your business has a story, a vision, and an opportunity. Our role is to help you communicate that story effectively, connect with the right people, and build a stronger digital foundation for the future.</p>
+  <div class="cta-buttons">
+    <a href="contact.html">Talk to Our Team</a>
+    <a href="contact.html">Start Your Project</a>
+  </div>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="intro">
+  <h1>About Broconnect Biz LLP</h1>
+  <h2>We Help Businesses Build, Connect, and Grow in the Digital World</h2>
+  <p><strong>Broconnect Biz LLP</strong> is a digital marketing agency focused on helping businesses establish a strong digital presence, connect with the right audience, and create sustainable opportunities for growth. We work with startups, small businesses, entrepreneurs, professionals, and growing organizations to strengthen their brand, improve online visibility, reach potential customers, and build a professional digital presence. Our approach brings together strategy, creativity, technology, and digital marketing to create practical solutions aligned with each client's business objectives.</p>
+  <p>We believe digital marketing should not simply be about being visible online. It should help a business communicate its value, build credibility, connect with customers, generate opportunities, and move toward measurable growth.</p>
+</section>
+
+<section id="who-we-are">
+  <h2>Who We Are</h2>
+  <p>The digital landscape is constantly changing. Customer expectations are evolving, competition is increasing, and businesses need to adapt quickly to remain relevant. At Broconnect Biz LLP, we help businesses navigate this environment with a structured and practical approach. We begin by understanding the business, its market, customers, competitors, and objectives. Based on that understanding, we develop digital solutions designed to create a stronger foundation for long-term growth.</p>
+  <p>Rather than treating every client the same, we believe in <strong>business-specific strategies and solutions.</strong> Our objective is to become more than a service provider. <strong>We aim to be a trusted digital growth partner.</strong></p>
+</section>
+
+<section id="mission">
+  <h2>Our Mission</h2>
+  <ul>
+    <li>Help businesses establish a credible digital identity</li>
+    <li>Create stronger connections between brands and their audiences</li>
+    <li>Develop practical digital strategies based on business objectives</li>
+    <li>Improve online visibility and customer engagement</li>
+    <li>Help businesses generate meaningful enquiries and opportunities</li>
+    <li>Combine creativity with technology and data-driven thinking</li>
+    <li>Build long-term digital foundations rather than short-term visibility</li>
+  </ul>
+  <p><strong>Our mission is simple:</strong> help businesses make better use of the digital world to achieve their goals.</p>
+</section>
+
+<section id="vision">
+  <h2>Our Vision</h2>
+  <p>Our vision is to build a digital marketing company recognized for professionalism, creativity, transparency, strategic thinking, and client-focused execution. We want to help businesses of different sizes and industries confidently navigate the digital landscape and compete in an increasingly connected marketplace. As we grow, our focus remains the same: <strong>Better strategies. Better digital experiences. Better business opportunities.</strong></p>
+</section>
+
+<section id="values">
+  <h2>What We Believe</h2>
+  <p>We believe successful digital marketing starts with understanding the business — not simply choosing a marketing channel. A beautiful website without a clear purpose may not generate results. A social media account without a strategy may not build meaningful engagement. Advertising without proper targeting may waste resources. That's why every digital activity we do has a clear purpose and connection to broader business objectives.</p>
+  <p><strong>Our philosophy is:</strong> Understand → Strategize → Create → Connect → Measure → Improve → Grow</p>
+</section>
+
+<section id="core-values">
+  <h2>Our Core Values</h2>
+  <ul>
+    <li><strong>Client First:</strong> We take time to understand our clients' businesses, challenges, and goals before recommending solutions.</li>
+    <li><strong>Transparency:</strong> Clear communication, realistic expectations, and transparent working relationships.</li>
+    <li><strong>Quality:</strong> Professional quality matters. We maintain high standards across strategy, design, content, and execution.</li>
+    <li><strong>Creativity:</strong> Digital audiences are constantly exposed to new information. We use creative thinking to help brands stand out and remain memorable.</li>
+    <li><strong>Innovation:</strong> We continuously explore new tools, platforms, and approaches that create better opportunities for our clients.</li>
+    <li><strong>Results-Oriented Thinking:</strong> We focus on how our work contributes to visibility, engagement, enquiries, and overall business growth.</li>
+    <li><strong>Long-Term Relationships:</strong> We value relationships beyond individual projects and aim to become a dependable partner as your business evolves.</li>
+  </ul>
+</section>
+
+<section id="approach">
+  <h2>Our Approach to Every Client</h2>
+  <p>Every business is different. Before creating a campaign, website, or marketing plan, we strive to understand:</p>
+  <ul>
+    <li>Where are you today? Where do you want to go?</li>
+    <li>Who are your customers? What challenges are you facing?</li>
+    <li>What makes your business different? Which digital opportunities can create the greatest impact?</li>
+  </ul>
+  <p>Once we understand these factors, we can build a more relevant strategy.</p>
+</section>
+
+<section id="strategy-execution">
+  <h2>From Strategy to Execution</h2>
+  <ol>
+    <li><strong>Discover:</strong> We understand your business, market, audience, competitors, and goals.</li>
+    <li><strong>Define:</strong> We identify priorities, opportunities, challenges, and the right direction.</li>
+    <li><strong>Strategize:</strong> We develop a practical digital strategy based on your requirements.</li>
+    <li><strong>Create:</strong> We develop the required digital assets, content, and campaigns.</li>
+    <li><strong>Launch:</strong> We implement and launch the selected digital initiatives.</li>
+    <li><strong>Measure:</strong> We monitor relevant performance indicators and gather insights.</li>
+    <li><strong>Optimize:</strong> We identify areas for improvement and refine the strategy.</li>
+    <li><strong>Grow:</strong> We continuously look for opportunities to strengthen your digital presence and support business growth.</li>
+  </ol>
+</section>
+
+<section id="differentiator">
+  <h2>What Makes Us Different?</h2>
+  <p>At Broconnect Biz LLP, we look at the bigger picture. Your <strong>Brand</strong> should connect with your <strong>Website</strong>, which should communicate with your <strong>Content</strong>, which should engage your <strong>Audience</strong>, which should ultimately support your <strong>Business Goals.</strong> This integrated approach creates a consistent digital experience rather than disconnected marketing activities.</p>
+</section>
+
+<section id="built-for-growth">
+  <h2>Built for Businesses That Want to Grow</h2>
+  <p>Whether you're launching your first business or expanding an established organization, your digital presence plays an important role in how customers discover, evaluate, and interact with your brand. We help businesses create the digital foundation required to compete in today's marketplace. From brand identity and websites to social media, content, SEO, advertising, and digital growth strategies, we bring together the capabilities you need to move forward with confidence.</p>
+</section>
+
+<section id="commitment">
+  <h2>Our Commitment</h2>
+  <p>When you work with Broconnect Biz LLP, our commitment is to understand your business and provide solutions relevant to your objectives. We maintain:</p>
+  <ul>
+    <li>Clear communication</li>
+    <li>Professional execution</li>
+    <li>Practical recommendations</li>
+    <li>Transparent working relationships</li>
+    <li>Consistent quality</li>
+    <li>Continuous improvement</li>
+    <li>Long-term partnership</li>
+  </ul>
+  <p>We know every business has different resources and priorities. That's why we focus on finding the right approach for your business, rather than simply recommending more services.</p>
+</section>
+
+<section id="future">
+  <h2>Looking Ahead</h2>
+  <p>The future of business is increasingly digital. AI, automation, data, social platforms, and digital customer experiences are changing how businesses reach customers. Broconnect Biz LLP aims to grow alongside these changes. We continuously improve our capabilities, adopt relevant technologies, develop new solutions, and help clients take advantage of emerging digital opportunities. Our long-term goal is to build a company where businesses can find the strategy, creativity, technology, and support they need to grow in the digital economy.</p>
+</section>
+
+<section id="build-together">
+  <h2>Let's Build Your Digital Future Together</h2>
+  <p>Your business has a story, a vision, and an opportunity. Our role is to help you communicate that story effectively, connect with the right people, and build a stronger digital foundation for the future.</p>
+  <div class="cta-buttons">
+    <a href="contact.html">Talk to Our Team</a>
+    <a href="contact.html">Start Your Project</a>
+  </div>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="intro">
+  <h1>About Broconnect Biz LLP</h1>
+  <h2>We Help Businesses Build, Connect, and Grow in the Digital World</h2>
+  <p><strong>Broconnect Biz LLP</strong> is a digital marketing agency focused on helping businesses establish a strong digital presence, connect with the right audience, and create sustainable opportunities for growth. We work with startups, small businesses, entrepreneurs, professionals, and growing organizations to strengthen their brand, improve online visibility, reach potential customers, and build a professional digital presence. Our approach brings together strategy, creativity, technology, and digital marketing to create practical solutions aligned with each client's business objectives.</p>
+  <p>We believe digital marketing should not simply be about being visible online. It should help a business communicate its value, build credibility, connect with customers, generate opportunities, and move toward measurable growth.</p>
+</section>
+
+<section id="who-we-are">
+  <h2>Who We Are</h2>
+  <p>The digital landscape is constantly changing. Customer expectations are evolving, competition is increasing, and businesses need to adapt quickly to remain relevant. At Broconnect Biz LLP, we help businesses navigate this environment with a structured and practical approach. We begin by understanding the business, its market, customers, competitors, and objectives. Based on that understanding, we develop digital solutions designed to create a stronger foundation for long-term growth.</p>
+  <p>Rather than treating every client the same, we believe in <strong>business-specific strategies and solutions.</strong> Our objective is to become more than a service provider. <strong>We aim to be a trusted digital growth partner.</strong></p>
+</section>
+
+<section id="mission">
+  <h2>Our Mission</h2>
+  <ul>
+    <li>Help businesses establish a credible digital identity</li>
+    <li>Create stronger connections between brands and their audiences</li>
+    <li>Develop practical digital strategies based on business objectives</li>
+    <li>Improve online visibility and customer engagement</li>
+    <li>Help businesses generate meaningful enquiries and opportunities</li>
+    <li>Combine creativity with technology and data-driven thinking</li>
+    <li>Build long-term digital foundations rather than short-term visibility</li>
+  </ul>
+  <p><strong>Our mission is simple:</strong> help businesses make better use of the digital world to achieve their goals.</p>
+</section>
+
+<section id="vision">
+  <h2>Our Vision</h2>
+  <p>Our vision is to build a digital marketing company recognized for professionalism, creativity, transparency, strategic thinking, and client-focused execution. We want to help businesses of different sizes and industries confidently navigate the digital landscape and compete in an increasingly connected marketplace. As we grow, our focus remains the same: <strong>Better strategies. Better digital experiences. Better business opportunities.</strong></p>
+</section>
+
+<section id="values">
+  <h2>What We Believe</h2>
+  <p>We believe successful digital marketing starts with understanding the business — not simply choosing a marketing channel. A beautiful website without a clear purpose may not generate results. A social media account without a strategy may not build meaningful engagement. Advertising without proper targeting may waste resources. That's why every digital activity we do has a clear purpose and connection to broader business objectives.</p>
+  <p><strong>Our philosophy is:</strong> Understand → Strategize → Create → Connect → Measure → Improve → Grow</p>
+</section>
+
+<section id="core-values">
+  <h2>Our Core Values</h2>
+  <ul>
+    <li><strong>Client First:</strong> We take time to understand our clients' businesses, challenges, and goals before recommending solutions.</li>
+    <li><strong>Transparency:</strong> Clear communication, realistic expectations, and transparent working relationships.</li>
+    <li><strong>Quality:</strong> Professional quality matters. We maintain high standards across strategy, design, content, and execution.</li>
+    <li><strong>Creativity:</strong> Digital audiences are constantly exposed to new information. We use creative thinking to help brands stand out and remain memorable.</li>
+    <li><strong>Innovation:</strong> We continuously explore new tools, platforms, and approaches that create better opportunities for our clients.</li>
+    <li><strong>Results-Oriented Thinking:</strong> We focus on how our work contributes to visibility, engagement, enquiries, and overall business growth.</li>
+    <li><strong>Long-Term Relationships:</strong> We value relationships beyond individual projects and aim to become a dependable partner as your business evolves.</li>
+  </ul>
+</section>
+
+<section id="approach">
+  <h2>Our Approach to Every Client</h2>
+  <p>Every business is different. Before creating a campaign, website, or marketing plan, we strive to understand:</p>
+  <ul>
+    <li>Where are you today? Where do you want to go?</li>
+    <li>Who are your customers? What challenges are you facing?</li>
+    <li>What makes your business different? Which digital opportunities can create the greatest impact?</li>
+  </ul>
+  <p>Once we understand these factors, we can build a more relevant strategy.</p>
+</section>
+
+<section id="strategy-execution">
+  <h2>From Strategy to Execution</h2>
+  <ol>
+    <li><strong>Discover:</strong> We understand your business, market, audience, competitors, and goals.</li>
+    <li><strong>Define:</strong> We identify priorities, opportunities, challenges, and the right direction.</li>
+    <li><strong>Strategize:</strong> We develop a practical digital strategy based on your requirements.</li>
+    <li><strong>Create:</strong> We develop the required digital assets, content, and campaigns.</li>
+    <li><strong>Launch:</strong> We implement and launch the selected digital initiatives.</li>
+    <li><strong>Measure:</strong> We monitor relevant performance indicators and gather insights.</li>
+    <li><strong>Optimize:</strong> We identify areas for improvement and refine the strategy.</li>
+    <li><strong>Grow:</strong> We continuously look for opportunities to strengthen your digital presence and support business growth.</li>
+  </ol>
+</section>
+
+<section id="differentiator">
+  <h2>What Makes Us Different?</h2>
+  <p>At Broconnect Biz LLP, we look at the bigger picture. Your <strong>Brand</strong> should connect with your <strong>Website</strong>, which should communicate with your <strong>Content</strong>, which should engage your <strong>Audience</strong>, which should ultimately support your <strong>Business Goals.</strong> This integrated approach creates a consistent digital experience rather than disconnected marketing activities.</p>
+</section>
+
+<section id="built-for-growth">
+  <h2>Built for Businesses That Want to Grow</h2>
+  <p>Whether you're launching your first business or expanding an established organization, your digital presence plays an important role in how customers discover, evaluate, and interact with your brand. We help businesses create the digital foundation required to compete in today's marketplace. From brand identity and websites to social media, content, SEO, advertising, and digital growth strategies, we bring together the capabilities you need to move forward with confidence.</p>
+</section>
+
+<section id="commitment">
+  <h2>Our Commitment</h2>
+  <p>When you work with Broconnect Biz LLP, our commitment is to understand your business and provide solutions relevant to your objectives. We maintain:</p>
+  <ul>
+    <li>Clear communication</li>
+    <li>Professional execution</li>
+    <li>Practical recommendations</li>
+    <li>Transparent working relationships</li>
+    <li>Consistent quality</li>
+    <li>Continuous improvement</li>
+    <li>Long-term partnership</li>
+  </ul>
+  <p>We know every business has different resources and priorities. That's why we focus on finding the right approach for your business, rather than simply recommending more services.</p>
+</section>
+
+<section id="future">
+  <h2>Looking Ahead</h2>
+  <p>The future of business is increasingly digital. AI, automation, data, social platforms, and digital customer experiences are changing how businesses reach customers. Broconnect Biz LLP aims to grow alongside these changes. We continuously improve our capabilities, adopt relevant technologies, develop new solutions, and help clients take advantage of emerging digital opportunities. Our long-term goal is to build a company where businesses can find the strategy, creativity, technology, and support they need to grow in the digital economy.</p>
+</section>
+
+<section id="build-together">
+  <h2>Let's Build Your Digital Future Together</h2>
+  <p>Your business has a story, a vision, and an opportunity. Our role is to help you communicate that story effectively, connect with the right people, and build a stronger digital foundation for the future.</p>
+  <div class="cta-buttons">
+    <a href="contact.html">Talk to Our Team</a>
+    <a href="contact.html">Start Your Project</a>
+  </div>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – Services & Charges</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="services-intro">
+  <h1>Services & Charges</h1>
+  <p>At <strong>Broconnect Biz LLP</strong>, we provide practical digital marketing solutions for startups, small businesses, entrepreneurs, professionals, and growing organizations. Our services help you build a professional digital presence, reach the right audience, generate enquiries, strengthen your brand, and create sustainable digital growth. We offer both individual services and customized packages, depending on your business needs.</p>
+  <p><em>Pricing shown below is indicative. Final pricing may vary depending on project scope, business requirements, number of pages/campaigns, creative requirements, technology, advertising budget, and level of customization.</em></p>
+</section>
+
+<section id="website-design">
+  <h2>01. Website Design & Development</h2>
+  <h3>Build a Professional Digital Home for Your Business</h3>
+  <p>Your website is often the first major interaction a potential customer has with your business. We create professional, responsive, user-friendly websites designed around your business objectives.</p>
+  <ul>
+    <li>Business website design</li>
+    <li>Mobile-responsive design</li>
+    <li>Professional page structure</li>
+    <li>Homepage, About & Services pages</li>
+    <li>Contact page with enquiry forms</li>
+    <li>WhatsApp integration</li>
+    <li>Basic SEO-friendly structure</li>
+    <li>Social media integration</li>
+    <li>Domain/hosting guidance</li>
+    <li>Basic website deployment support</li>
+  </ul>
+  <p><strong>Starting From ₹9,999</strong> (Suitable for startups, professionals, local and small businesses.)</p>
+  <p><strong>Business Website — ₹19,999+</strong> (Includes multiple service pages, lead-generation features, etc.)</p>
+  <p><strong>Advanced Website — Custom Quote</strong> (For advanced functionality, e-commerce, portals, etc.)</p>
+  <a href="contact.html">Request Website Consultation</a>
+</section>
+
+<section id="social-media">
+  <h2>02. Social Media Marketing</h2>
+  <h3>Build a Consistent & Professional Social Presence</h3>
+  <p>Social media allows businesses to remain visible, communicate with customers, showcase expertise, and build brand awareness. We help you create and maintain a consistent social media presence.</p>
+  <ul>
+    <li>Social media strategy</li>
+    <li>Profile optimization</li>
+    <li>Content calendar</li>
+    <li>Post design (graphics)</li>
+    <li>Captions & content writing</li>
+    <li>Hashtag strategy</li>
+    <li>Promotional creatives</li>
+    <li>Basic engagement support</li>
+    <li>Monthly performance reporting</li>
+  </ul>
+  <p><strong>Starter Plan — ₹7,999 / Month</strong> (For businesses beginning their social media journey.)</p>
+  <p><strong>Growth Plan — ₹14,999 / Month</strong> (For businesses with consistent content and engagement.)</p>
+  <p><strong>Professional Plan — ₹24,999 / Month</strong> (For businesses requiring a stronger content strategy, campaign support, and optimization.)</p>
+  <p><em>Advertising budget is separate.</em></p>
+  <a href="contact.html">Get Social Media Plan</a>
+</section>
+
+<section id="seo">
+  <h2>03. Search Engine Optimization (SEO)</h2>
+  <h3>Improve Your Online Search Visibility</h3>
+  <p>SEO helps your business improve its visibility when potential customers search online. Our SEO approach focuses on building a strong search foundation and improving organic visibility over time.</p>
+  <ul>
+    <li>Website SEO audit</li>
+    <li>Keyword research</li>
+    <li>On-page SEO (title, description, headings)</li>
+    <li>Content optimization recommendations</li>
+    <li>Technical SEO suggestions</li>
+    <li>Internal linking improvements</li>
+    <li>Local SEO support</li>
+    <li>Performance monitoring and reporting</li>
+  </ul>
+  <p><strong>Local SEO — Starting from ₹6,999 / Month</strong> (For local businesses improving visibility in a service area.)</p>
+  <p><strong>Business SEO — Starting from ₹12,999 / Month</strong> (For businesses targeting multiple keywords, services, or locations.)</p>
+  <p><strong>Advanced SEO — Starting from ₹24,999 / Month</strong> (For competitive industries, larger websites, multiple locations.)</p>
+  <p><em>SEO is long-term; results vary by industry, competition, and website condition.</em></p>
+  <a href="contact.html">Request SEO Consultation</a>
+</section>
+
+<section id="performance">
+  <h2>04. Performance Marketing</h2>
+  <h3>Reach the Right Audience With Targeted Advertising</h3>
+  <p>Paid advertising can help you reach potential customers faster. We help plan, launch, monitor, and optimize digital advertising campaigns.</p>
+  <ul>
+    <li>Campaign strategy</li>
+    <li>Audience research</li>
+    <li>Ad campaign setup</li>
+    <li>Ad copywriting</li>
+    <li>Creative asset direction</li>
+    <li>Lead-generation campaigns</li>
+    <li>Conversion tracking setup</li>
+    <li>Campaign monitoring and optimization</li>
+    <li>Monthly performance reporting</li>
+  </ul>
+  <p><strong>Campaign Management — Starting from ₹7,999 / Month</strong> (Advertising budget is <strong>not included</strong>.)</p>
+  <p><strong>Growth Campaign Management — Starting from ₹14,999 / Month</strong> (For multiple campaigns or active optimization.)</p>
+  <p><em>Advertising budget is paid separately to platforms. Results depend on offer, market, audience, and more.</em></p>
+  <a href="contact.html">Launch a Campaign</a>
+</section>
+
+<section id="branding">
+  <h2>05. Branding & Brand Identity</h2>
+  <h3>Create a Brand People Can Recognize</h3>
+  <p>A strong brand creates consistency and trust. We help establish a professional visual identity.</p>
+  <h4>Branding Starter — ₹7,999</h4>
+  <p>Includes: Logo design, basic color palette, typography recommendation, basic brand direction.</p>
+  <h4>Professional Brand Identity — ₹19,999</h4>
+  <p>Includes: Logo concept development, color system, typography, brand guidelines, social media identity, basic templates.</p>
+  <h4>Complete Brand Identity — ₹39,999+</h4>
+  <p>Comprehensive brand identity system and marketing collateral.</p>
+  <a href="contact.html">Build Your Brand</a>
+</section>
+
+<section id="creative-design">
+  <h2>06. Content & Creative Design</h2>
+  <h3>Content That Communicates Your Business</h3>
+  <p>Professional content helps explain your services, educate customers, promote offers, and maintain a consistent presence.</p>
+  <ul>
+    <li>Social media graphics</li>
+    <li>Promotional designs</li>
+    <li>Business banners</li>
+    <li>Website content writing</li>
+    <li>Marketing copy</li>
+    <li>Campaign creatives</li>
+    <li>Infographics</li>
+    <li>Presentation designs</li>
+    <li>Business profile content</li>
+  </ul>
+  <p><strong>Social Media Creative Packages — Starting from ₹2,999</strong></p>
+  <p><strong>Monthly Content Packages — Starting from ₹5,999 / Month</strong></p>
+  <p><em>Final pricing depends on quantity and type of creatives, platforms, etc.</em></p>
+  <a href="contact.html">Discuss Your Content Requirements</a>
+</section>
+
+<section id="lead-gen">
+  <h2>07. Lead Generation Solutions</h2>
+  <h3>Turn Digital Reach Into Business Enquiries</h3>
+  <p>Visibility is valuable, but you also need to convert that into enquiries. We help build digital lead-generation systems using landing pages, lead forms, campaigns, and more.</p>
+  <ul>
+    <li>Landing pages</li>
+    <li>Lead capture forms</li>
+    <li>WhatsApp integration</li>
+    <li>Social media lead campaigns</li>
+    <li>Search ad lead campaigns</li>
+    <li>Call-to-action systems</li>
+    <li>Conversion-focused content</li>
+    <li>Basic lead tracking</li>
+    <li>Follow-up workflow recommendations</li>
+  </ul>
+  <p><strong>Lead Generation Setup — Starting from ₹14,999</strong></p>
+  <p><strong>Monthly Lead Generation Management — Starting from ₹19,999 / Month</strong></p>
+  <p><em>Advertising budget is separate. Lead volume cannot be guaranteed due to market and budget factors.</em></p>
+  <a href="contact.html">Build My Lead Generation System</a>
+</section>
+
+<section id="automation">
+  <h2>08. WhatsApp & Marketing Automation</h2>
+  <h3>Make Customer Communication More Efficient</h3>
+  <p>Businesses often lose customers if enquiries are not handled quickly. We help design digital communication and automation workflows.</p>
+  <ul>
+    <li>WhatsApp integration</li>
+    <li>Enquiry forms</li>
+    <li>Automated responses</li>
+    <li>Lead notifications</li>
+    <li>Customer enquiry workflows</li>
+    <li>Follow-up reminders</li>
+    <li>Basic CRM integration</li>
+    <li>Marketing automation planning</li>
+  </ul>
+  <p><strong>Automation Setup — Starting from ₹9,999</strong></p>
+  <p><strong>Advanced Automation — Starting from ₹24,999+</strong></p>
+  <p><em>Final pricing depends on software, integrations, number of workflows, and complexity. Third-party software fees are separate.</em></p>
+  <a href="contact.html">Discuss Automation</a>
+</section>
+
+<section id="profiles-setup">
+  <h2>09. Business Profile & Digital Presence Setup</h2>
+  <h3>Establish Your Business Across Important Digital Platforms</h3>
+  <p>For businesses starting their digital journey, we help organize and improve their online presence.</p>
+  <ul>
+    <li>Business profile setup guidance</li>
+    <li>Social media profile setup</li>
+    <li>Profile optimization</li>
+    <li>Business description writing</li>
+    <li>Contact information setup</li>
+    <li>Website/social linking</li>
+    <li>Basic branding consistency</li>
+    <li>Digital presence checklist</li>
+  </ul>
+  <p><strong>Setup Package — Starting from ₹4,999</strong></p>
+  <p><em>(Third-party verification or platform fees, if any, are separate.)</em></p>
+  <a href="contact.html">Improve My Digital Presence</a>
+</section>
+
+<section id="consultation">
+  <h2>10. Digital Marketing Consultation</h2>
+  <h3>Get a Clear Direction Before You Invest</h3>
+  <p>Not every business needs every service. We help identify what you need before you invest your time and budget.</p>
+  <ul>
+    <li>Evaluate current digital presence</li>
+    <li>Website review</li>
+    <li>Social media assessment</li>
+    <li>SEO opportunities</li>
+    <li>Advertising strategy</li>
+    <li>Lead generation</li>
+    <li>Branding</li>
+    <li>Content strategy</li>
+    <li>Digital growth roadmap</li>
+  </ul>
+  <p><strong>One-Time Consultation — Starting from ₹1,999</strong></p>
+  <p><strong>Customized Strategy — Starting from ₹9,999</strong></p>
+  <p><em>Final fee depends on depth of research and strategy required.</em></p>
+  <a href="contact.html">Book a Consultation</a>
+</section>
+
+<section id="packages">
+  <h2>Customized Digital Marketing Packages</h2>
+  <p>Need multiple services? We can combine Website + Branding + Social Media + SEO + Content + Advertising + Lead Generation + Automation into a custom package.</p>
+  <p><strong>Starter Growth Package — Starting from ₹24,999</strong> (For initial digital presence.)</p>
+  <p><strong>Business Growth Package — Starting from ₹49,999</strong> (For a combination of website, content, social media, etc.)</p>
+  <p><strong>Complete Digital Growth Package — Starting from ₹99,999+</strong> (For a comprehensive digital strategy and ongoing support.)</p>
+  <p><em>Every package is customized to your business requirements.</em></p>
+  <a href="contact.html">Request a Customized Proposal</a>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="contact-intro">
+  <h1>Contact Us</h1>
+  <h2>Let's Talk About Your Business</h2>
+  <p>Have a project in mind, need help with your digital presence, or want to understand which marketing solution is right for your business? <strong>We're here to help.</strong> At Broconnect Biz LLP, we believe the best digital solutions begin with a conversation. Tell us about your business, your challenges, and what you want to achieve. We'll help identify the right way forward. Whether you need a website, branding, social media marketing, SEO, performance marketing, content, lead generation, automation, or a customized solution — you can get in touch with us below.</p>
+</section>
+
+<section id="contact-form">
+  <h2>Start a Conversation</h2>
+  <form>
+    <div class="form-field">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your name">
+    </div>
+    <div class="form-field">
+      <label for="company">Business / Company Name</label>
+      <input type="text" id="company" placeholder="Your business name">
+    </div>
+    <div class="form-field">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Your email">
+    </div>
+    <div class="form-field">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="Your contact number">
+    </div>
+    <div class="form-field">
+      <label for="service">Service Required</label>
+      <select id="service">
+        <option>Website Design & Development</option>
+        <option>Social Media Marketing</option>
+        <option>SEO</option>
+        <option>Performance Marketing</option>
+        <option>Branding</option>
+        <option>Content & Creative Design</option>
+        <option>Lead Generation</option>
+        <option>WhatsApp & Marketing Automation</option>
+        <option>Digital Marketing Consultation</option>
+        <option>Customized Solution</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-field">
+      <label for="requirement">Tell Us About Your Requirement</label>
+      <textarea id="requirement" rows="4" placeholder="Explain your business, project, or goals"></textarea>
+    </div>
+    <div class="form-field">
+      <label for="contact-method">Preferred Contact Method</label>
+      <select id="contact-method">
+        <option>Phone Call</option>
+        <option>WhatsApp</option>
+        <option>Email</option>
+      </select>
+    </div>
+    <button type="submit">Submit Enquiry</button>
+    <p><em>By submitting this form, you agree to be contacted by Broconnect Biz LLP regarding your enquiry.</em></p>
+  </form>
+</section>
+
+<section id="contact-info">
+  <h2>Contact Information</h2>
+  <p><strong>Broconnect Biz LLP</strong> – Digital Marketing Agency</p>
+  <p>Phone: 9392095454</p>
+  <p>Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+  <p>Registered Office: Sy. No. 246/1, Manikonda Jagir Village, Hyderabad, Telangana, India.</p>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broconnect Biz LLP – Live Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>Broconnect Biz LLP</strong></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="cta">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="projects-intro">
+  <h1>Live Projects</h1>
+  <p>At <strong>Broconnect Biz LLP</strong>, we believe the best way to demonstrate our capabilities is through real work. Our <strong>Live Projects</strong> showcase selected projects that are currently being developed, implemented, or supported by our team. Each project represents a different business objective — from building a digital presence and launching a website to generating enquiries, improving customer engagement, and creating digital growth systems.</p>
+  <p><em>Project information is presented with appropriate confidentiality. Where details are sensitive, we use limited or anonymized information.</em></p>
+</section>
+
+<section id="project-01" class="project">
+  <h3>Project 01 — Business Website & Digital Presence</h3>
+  <p><strong>Type:</strong> Website Design + Digital Presence</p>
+  <p><strong>Objective:</strong> Create a professional online presence that clearly communicates the client's business, services, value proposition, and contact information.</p>
+  <p><strong>Our Work:</strong></p>
+  <ul>
+    <li>Business requirements analysis</li>
+    <li>Website structure and UX planning</li>
+    <li>UI design and responsive development</li>
+    <li>Service page creation and contact integration</li>
+    <li>WhatsApp and basic SEO integration</li>
+    <li>Deployment support</li>
+  </ul>
+  <p><strong>Current Stage:</strong> Design & Development / Ongoing</p>
+  <p><strong>Project Goal:</strong> Create a professional digital foundation that establishes credibility and makes it easy for potential customers to discover and contact the company.</p>
+</section>
+
+<section id="project-02" class="project">
+  <h3>Project 02 — Brand Identity & Digital Branding</h3>
+  <p><strong>Type:</strong> Branding + Creative Identity</p>
+  <p><strong>Objective:</strong> Develop a consistent and professional visual identity for the client’s website, social media, marketing materials, and digital communication.</p>
+  <p><strong>Our Work:</strong></p>
+  <ul>
+    <li>Brand identity planning</li>
+    <li>Logo concept development</li>
+    <li>Color palette and typography selection</li>
+    <li>Social media branding and templates</li>
+    <li>Creation of digital brand guidelines</li>
+  </ul>
+  <p><strong>Current Stage:</strong> Brand Development / Implementation</p>
+  <p><strong>Project Goal:</strong> Create a recognizable, consistent brand identity that strengthens perception and improves presentation across digital platforms.</p>
+</section>
+
+<section id="project-03" class="project">
+  <h3>Project 03 — Social Media Growth & Content</h3>
+  <p><strong>Type:</strong> Social Media Marketing + Content</p>
+  <p><strong>Objective:</strong> Build a consistent social media presence with relevant content that communicates the client's products, services, expertise, and brand personality.</p>
+  <p><strong>Our Work:</strong></p>
+  <ul>
+    <li>Social media strategy</li>
+    <li>Content calendar and creative development</li>
+    <li>Caption writing and promotional posts</li>
+    <li>Educational and brand-content creation</li>
+    <li>Audience engagement and performance monitoring</li>
+  </ul>
+  <p><strong>Current Stage:</strong> Ongoing</p>
+  <p><strong>Project Goal:</strong> Improve brand visibility, audience engagement, consistency, and opportunities for customer interaction.</p>
+</section>
+
+<section id="project-04" class="project">
+  <h3>Project 04 — Lead Generation Campaign</h3>
+  <p><strong>Type:</strong> Performance Marketing + Lead Generation</p>
+  <p><strong>Objective:</strong> Develop a digital campaign to reach a target audience and generate qualified business enquiries.</p>
+  <p><strong>Our Work:</strong></p>
+  <ul>
+    <li>Audience research</li>
+    <li>Campaign strategy and offer positioning</li>
+    <li>Ad creative direction and setup</li>
+    <li>Landing page recommendations</li>
+    <li>Lead tracking, monitoring, and optimization</li>
+  </ul>
+  <p><strong>Current Stage:</strong> Campaign Management / Optimization</p>
+  <p><strong>Project Goal:</strong> Create a structured digital acquisition system that connects advertising with business enquiries.</p>
+  <p><em>Note: Advertising performance varies by market, offer, audience, creative quality, landing page, budget, etc. Results are not guaranteed.</em></p>
+</section>
+
+<section id="project-05" class="project">
+  <h3>Project 05 — SEO & Search Visibility</h3>
+  <p><strong>Type:</strong> Search Engine Optimization</p>
+  <p><strong>Objective:</strong> Improve the client's website structure and search visibility so customers can easily discover relevant products and services online.</p>
+  <p><strong>Our Work:</strong></p>
+  <ul>
+    <li>Website SEO audit</li>
+    <li>Keyword research and on-page optimization</li>
+    <li>Content and technical SEO recommendations</li>
+    <li>Local SEO improvements and internal linking</li>
+    <li>Search performance monitoring</li>
+  </ul>
+  <p><strong>Current Stage:</strong> Ongoing Optimization</p>
+  <p><strong>Project Goal:</strong> Build a stronger organic search foundation and improve long-term online visibility.</p>
+</section>
+
+<section id="project-06" class="project">
+  <h3>Project 06 — WhatsApp & Marketing Automation</h3>
+  <p><strong>Type:</strong> Digital Automation + Lead Management</p>
+  <p><strong>Objective:</strong> Improve how customer enquiries are captured, communicated, organized, and followed up.</p>
+  <p><strong>Our Work:</strong></p>
+  <ul>
+    <li>Customer enquiry workflow design</li>
+    <li>WhatsApp integration</li>
+    <li>Automated response planning</li>
+    <li>Lead notifications and follow-up reminders</li>
+    <li>Form and CRM integration recommendations</li>
+    <li>Process optimization</li>
+  </ul>
+  <p><strong>Current Stage:</strong> Implementation / Testing</p>
+  <p><strong>Project Goal:</strong> Reduce manual communication, improve response processes, and create an organized enquiry journey.</p>
+</section>
+
+<section id="project-07" class="project">
+  <h3>Project 07 — Complete Digital Growth Solution</h3>
+  <p><strong>Type:</strong> Integrated Digital Marketing</p>
+  <p><strong>Objective:</strong> Build a complete digital ecosystem requiring multiple marketing capabilities under one strategy.</p>
+  <p><strong>Our Work:</strong> Strategy + Branding + Website + Content + Social Media + SEO + Lead Generation + Digital Marketing (custom scope).</p>
+  <p><strong>Current Stage:</strong> Ongoing</p>
+  <p><strong>Project Goal:</strong> Create an integrated digital presence where different channels work together toward common business objectives.</p>
+</section>
+
+<section id="lifecycle">
+  <h2>Our Project Lifecycle</h2>
+  <ol>
+    <li><strong>Discovery:</strong> Understand the business, audience, competition, and objectives.</li>
+    <li><strong>Strategy:</strong> Identify priorities and create a roadmap.</li>
+    <li><strong>Planning:</strong> Define deliverables, timelines, and responsibilities.</li>
+    <li><strong>Creation:</strong> Develop required websites, designs, content, and systems.</li>
+    <li><strong>Review:</strong> Incorporate client feedback and refine the work.</li>
+    <li><strong>Launch:</strong> Implement and launch the approved solution.</li>
+    <li><strong>Monitor:</strong> Track performance and activity.</li>
+    <li><strong>Optimize:</strong> Identify improvements and make adjustments.</li>
+    <li><strong>Grow:</strong> Continue building on digital opportunities for ongoing growth.</li>
+  </ol>
+</section>
+
+<section id="status-indicators">
+  <h2>Project Status</h2>
+  <p>We use status labels to keep you informed:</p>
+  <ul>
+    <li><strong>Discovery:</strong> Requirements and objectives being defined.</li>
+    <li><strong>In Progress:</strong> Design, development, or implementation underway.</li>
+    <li><strong>Testing:</strong> The solution is being reviewed and tested before launch.</li>
+    <li><strong>Live:</strong> The project is launched and active.</li>
+    <li><strong>Ongoing:</strong> Continuous support, optimization, or maintenance.</li>
+    <li><strong>Completed:</strong> The agreed project scope has been delivered.</li>
+  </ul>
+</section>
+
+<section id="confidentiality">
+  <h2>Our Commitment to Client Confidentiality</h2>
+  <p>Some projects involve confidential information (strategies, data, etc.). We respect client confidentiality. Sensitive details such as business data, customer information, or performance data are kept private unless approved for sharing. Project information is shared only with the client's permission.</p>
+</section>
+
+<section id="long-term">
+  <h2>More Than Projects — Long-Term Partnerships</h2>
+  <p>A successful project doesn't always end at launch. Many businesses need ongoing support, optimization, content, and strategy. That's why we focus on building long-term digital partnerships. We aim to understand where your business is today, where you want to go, and how digital marketing can support that journey.</p>
+</section>
+
+<section id="discuss-project">
+  <h2>Want to Discuss Your Project?</h2>
+  <p>Your business could be our next success story. Whether you need a website, digital marketing strategy, branding, SEO, social media, lead generation, or automation, we'd love to understand your requirements.</p>
+  <p><strong>What are you building? What problem are you solving? Who are your customers? What results do you want?</strong></p>
+  <div class="cta-buttons">
+    <a href="contact.html">Discuss Your Project</a>
+    <a href="contact.html">Request a Proposal</a>
+  </div>
+</section>
+
+<footer>
+  <p>Broconnect Biz LLP – Digital Marketing Agency</p>
+  <p>Building Brands. Connecting Businesses. Creating Growth.</p>
+  <p>Website: <a href="http://www.broconnectbiz.com">www.broconnectbiz.com</a></p>
+  <p>Phone: 9392095454 | Email: <a href="mailto:kamleshjhariya1111@gmail.com">kamleshjhariya1111@gmail.com</a></p>
+  <p>Hyderabad, Telangana, India</p>
+</footer>
+
+</body>
+</html>
